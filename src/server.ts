@@ -3,8 +3,8 @@ import path from "path";
 import { createServer as createViteServer } from "vite";
 import { GoogleGenAI, Type, ThinkingLevel } from "@google/genai";
 import dotenv from "dotenv";
-import { PREBUILT_FICHES } from "./src/data/prebuiltFiches";
-import { ALGERIAN_SUBJECTS } from "./src/data/algerianCurriculum";
+import { PREBUILT_FICHES } from "./data/prebuiltFiches";
+import { ALGERIAN_SUBJECTS } from "./data/algerianSubjects";
 
 dotenv.config();
 
